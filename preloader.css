@@ -1,0 +1,89 @@
+/*Preloader*/
+
+
+.preloader {
+    position: fixed; /* Fixed positioning */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    background: #D8D3D0; /* Background color */
+    display: flex; /* Center loader */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.loader {
+    width: 16em;
+    height: 8em;
+    position: relative;
+    overflow: hidden;
+}
+
+.loader::before,
+.loader::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+}
+
+.loader::before {
+    width: inherit;
+    height: 0.2em;
+    background-color: #C5882D;
+}
+
+.loader::after {
+    box-sizing: border-box;
+    width: 50%;
+    height: inherit;
+    border: 0.2em solid #C5882D;
+    border-radius: 50%;
+    left: 25%;
+}
+
+.loader span {
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    background-color: #8E4B05;
+    border-radius: 50%;
+    bottom: 0.2em;
+    left: -5%;
+    animation: 2s linear infinite;
+    transform-origin: 50% -3em;
+    animation-name: run, rotating;
+}
+
+.loader span:nth-child(2) {animation-delay: 0.09s;}
+.loader span:nth-child(3) {animation-delay: 0.18s;}
+
+@keyframes run {
+    0% {left: -5%;}
+    10%, 60% {left: calc((100% - 5%) / 2);}
+    70%, 100% {left: 100%;}
+}
+
+@keyframes rotating {
+    0%, 10% {transform: rotate(0deg);}
+    60%, 100% {transform: rotate(-1turn);}
+}
+
+@keyframes loader{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+
+/*End of Preloader
+*/

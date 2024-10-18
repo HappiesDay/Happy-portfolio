@@ -1,0 +1,1353 @@
+
+/* font  */
+/* .playfair-display-<uniquifier> {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  } */
+  
+  /* // <uniquifier>: Use a unique and descriptive class name
+
+.source-sans-3-<uniquifier> {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* font-family: "parisplus-clair", sans-serif;
+font-weight: 700;
+font-style: normal; */
+
+
+
+
+@font-face {
+	font-family: 'IcielCadena';
+	src: url(Image/iciel\ Cadena.ttf);
+}
+
+
+h1
+{
+	font-family: IcielCadena, san-serif;
+	font-size: 6vw;
+	line-height: 3.75vw;
+	user-select: none;
+    z-index: 2;
+    
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        color: #3F1C01; /* Text color */
+        line-height: 1.2; /* Adjust line height for readability */
+        user-select: none; /* Prevent text selection */
+}
+
+
+
+
+
+body{
+    overflow-y: hidden;
+    
+}
+
+#content {
+    display: none; /* Hide content until loaded */
+    width: 400vw;
+}
+
+
+
+img {
+	width: 100%;
+}
+
+
+
+* {
+	margin: 0;
+}
+
+html {
+    scroll-behavior: smooth; /* Ensures smooth scrolling */
+}
+    .Contactbutton
+    {
+        background : #FF645A;
+        width : 9.125vw;
+        height : 2.5vw;
+        border-radius : 12px;  
+        display: grid;
+      position: absolute;
+      top: 3.75vw ;
+      left: 84.4vw;
+      z-index: 2;
+        
+        text-decoration: none;
+    
+          font-family: sofia-pro, sans-serif;
+    
+        font-weight: 400;
+    
+        font-style: italic;
+    
+        font-size: 1.5vw;
+    
+        text-align: center;
+    
+        vertical-align: middle;
+    
+        color: white;
+    
+    }
+    
+    .Contactbutton:hover
+    {
+        background :#5ADFF2;
+    }
+    
+    .Contactbutton:active
+    {
+        background :#FBB03B;
+    }
+.About
+{
+    display: grid;
+  position: absolute;
+  top: 4.5vw ;
+  left: 67.5vw;
+  z-index: 2;
+    
+    text-decoration: none;
+
+    /* font-family: "Source Sans 3", sans-serif;
+
+	font-weight: 400;
+
+	font-style: normal; */
+
+    font-family: sofia-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+	font-size: 1.5vw;
+
+
+	color: #FF645A;
+
+    line-height: 1.25vw;
+
+}
+
+.About:hover
+{
+    color: #FBB03B;;
+}
+
+.About:active
+{
+    color: #F28F70;;
+}
+
+.Project
+{
+ 
+
+    display: grid;
+  position: absolute;
+  top: 4.5vw ;
+  left: 76.25vw;
+  z-index: 2;
+    
+    text-decoration: none;
+
+    font-family: "parisine-plus-std-gris", sans-serif;
+
+    /* font-family: "parisplus-clair", sans-serif; */
+    font-weight: 700;
+    font-style: normal;
+
+	font-size: 1.5vw;
+
+
+	color: #FF645A;
+
+    line-height: 1.25vw;
+
+}
+
+.Project:hover
+{
+    color: #FBB03B;;
+}
+
+.Project:active
+{
+    color: #F28F70;;
+}
+
+
+.scroll {
+    position: absolute;
+    height: 5px;
+    width: 0;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    position: relative;
+    white-space: nowrap; /* Prevent line breaks for child elements */
+    
+}
+
+.page {
+    min-width: 100%;
+    height: 100%;
+    font-size: 46px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0,0,0,0.18);
+    
+    
+}
+
+.page_1 {
+    background-color: #F3DBB9;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    /* background-image: url(Image/Grid2.jpg);
+    background-size: 100% auto; */
+
+}
+
+.page_2 {
+    background: linear-gradient(to right, #F3DBB9, #FCE3C5);
+    width: 100%;
+
+}
+
+.page_3 {
+    background: linear-gradient(to left, #F3DBB9, #FCE3C5);
+
+    overflow: hidden; /* Hides the overflow */
+    
+
+}
+
+.page_4 {
+    background-color: #F3DBB9;
+    overflow: hidden; /* Hides the overflow */
+    max-width: 100%;
+
+}
+
+
+.scroll {
+    position: absolute;
+    height: 5px;
+    width: 0;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+}
+
+/* Logo */
+#Logo {
+    width: 4vw;
+    height: inherit;
+    position: absolute;
+    top: 8vh;
+    left: 5.5vw;
+    z-index: 1;
+}
+
+#Logo:hover {
+    content: url(Image/Logo2.svg);
+}
+
+/* SVG image */
+
+.image-wrapper {
+    display: inline-block;
+    width: 60px; /* Reduce width */
+    height: 60px; /* Reduce height */
+    overflow: hidden; /* Hide excess area */
+    cursor: default; /* Change cursor */
+}
+
+#Pumpkin {
+    display: flex;
+    width: 40vw;
+    position: absolute;
+    top: 42vh;
+    left: -3vw;
+    z-index: 1;
+    height: auto;
+    transition: transform 0.2s ease;
+
+ 
+}
+#Pumpkin:hover {
+    /* content: url(Image/3D_Hover2.svg); */
+    transform: scale(1.14) rotate(1deg); /* Slightly enlarge and rotate */
+
+}
+#Happy {
+    width: 24vw;
+    position: absolute;
+    top: 24vh;
+    left: 14vw;
+    z-index: 1;
+    height: auto;
+}
+
+
+#Hill1 {
+    width: 59vw;
+    position: absolute;
+     bottom: 0vh;
+    left: 0vw;
+    z-index: 0;
+    height: auto;
+    user-select: none;
+    cursor: default;
+
+
+     
+}
+
+.Startbutton
+{
+  display: grid;
+  position: absolute;
+  top: 58vh;
+  left: 51vw;
+  z-index: 2;
+  background : #FBCA04;
+
+  width : 14vw;
+  height : 3vw;
+  border-radius : 12px;
+  -moz-border-radius : 12px;
+  -webkit-border-radius : 12px;
+
+  	font-family: sofia-pro, sans-serif;
+
+	font-weight: 700;
+
+	font-style: normal;
+
+	font-size: 2vw;
+
+	text-align: center;
+
+	vertical-align: middle;
+
+	line-height: 3vw;
+
+	color: #8E4B05;
+
+    animation: bounce1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+.Startbutton:hover
+{
+    transform: scale(1.05); /* Slightly enlarge */
+    background-color: #F9B406; /* Darker shade on hover */}
+
+
+.Startbutton:active
+{
+    top: 58.5vh;
+}
+
+
+.Startshadow
+{
+  display: flex;
+  position: absolute;
+  top: 58.5vh;
+  left: 51vw;
+  z-index: 1;
+  background : #FBCA04;
+  width : 14vw;
+  height : 3vw;
+  border-radius : 12px;
+  -moz-border-radius : 12px;
+  -webkit-border-radius : 12px;
+
+  animation: bounce1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+
+}
+/* h1
+{
+	font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+	user-select: none;
+    font-size: 7vw;
+
+
+}
+
+h2{
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1vw;
+
+}
+.Big_Text {
+    display: 
+    width: auto;
+    top: 12vh;
+    left: 90vw;
+
+        } */
+
+.text1 {
+    position: absolute;
+    left: 23vw;
+    top: -21vh;
+    color: black; /* Change text color for visibility */
+    font-size: 2rem; /* Example text size */
+    cursor: default; /* Change cursor to indicate hover */
+    opacity: 0;
+}
+
+.text1::before {
+    content: "";
+    position: absolute;
+    top: -1px; /* Move box up a bit */
+    left: -30px; /* Move box to the left a bit */
+    right: -25px; /* Move box to the right a bit */
+    bottom: -15px; /* Move box down a bit */
+    background-color: #EAA61F;
+    opacity: 0.14; /* Always visible */
+    z-index: 1; /* Ensure the box is behind the text */
+    border-radius: 10px; /* Optional: add rounded corners */
+}
+
+.text1:hover::before {
+    opacity: 0.14; /* Show the box on hover */
+}
+
+.text2 {
+    position: absolute;
+    left: 58.5vw; /* Position from the left */
+    top: 40vh; /* Position from the top */
+    transform: translateX(-50%); /* Center the element horizontally */
+    
+    color: #3F1C01; /* Text color */
+    font-size: 1.5rem; /* Example text size */
+    cursor: default; /* Change cursor to indicate hover */
+    font-family: "parisplus-clair", sans-serif; 
+
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.2; /* Adjust line height for readability */
+    text-align: center; /* Center text within the element */
+     /* Optional: set a width for the text container */
+     opacity: 0;
+}
+
+/* .text2::before{
+    content: "";
+    position: absolute;
+    top: -2px; 
+    left: -20px;
+    right: -15px; 
+    bottom: -5px; 
+    background-color: #FF9700;
+    opacity: 0.14; 
+    z-index: 1; 
+    border-radius: 12px;
+} */
+.text3 {
+    position: relative;
+    left: 21vw;
+    top: 5.5vh;
+    color: #8E4B05; /* Change text color for visibility */
+    font-size: 1.5rem; /* Example text size */
+    cursor: pointer; /* Change cursor to indicate hover */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.5rem; /* Example text size */
+    cursor: default; /* Change cursor to indicate hover */
+    font-family: "parisplus-std", sans-serif;
+
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.2; /* Adjust line height for readability */
+    text-align: center; /* Center text within the element */
+    opacity: 0;
+}
+
+.text3::before {
+    content: "";
+    position: absolute;
+    top: -2px; /* Move box up a bit */
+    left: -20px; /* Move box to the left a bit */
+    right: -15px; /* Move box to the right a bit */
+    bottom: -5px; /* Move box down a bit */
+    background-color: #FF9700;
+    opacity: 0.14; /* Always visible */
+    z-index: 1; /* Ensure the box is behind the text */
+    border-radius: 12px; /* Optional: add rounded corners */
+}
+
+.text3:hover::before {
+    opacity: 0.14; /* Show the box on hover */
+}
+.text3:active{
+   color: #FF9700;
+
+
+
+}
+
+.text4 {
+    position: relative;
+    left: 0vw;
+    top: 5.5vh;
+    color: #8E4B05; /* Change text color for visibility */
+    font-size: 1.5rem; /* Example text size */
+    cursor: pointer; /* Change cursor to indicate hover */
+    text-decoration: none; /* Remove underline */
+    
+}
+
+.text4::before {
+    content: "";
+    position: absolute;
+    top: -2px; /* Move box up a bit */
+    left: -20px; /* Move box to the left a bit */
+    right: -15px; /* Move box to the right a bit */
+    bottom: -5px; /* Move box down a bit */
+    background-color: #FF9700;
+    opacity: 0.14; /* Always visible */
+    z-index: 2; /* Ensure the box is behind the text */
+    border-radius: 12px; /* Optional: add rounded corners */
+}
+
+.text4:hover::before {
+    opacity: 0.14; /* Show the box on hover */
+}
+.text4:active{
+   color: #FF9700;
+
+
+
+}
+    
+    
+
+
+
+        
+
+#Tomato {
+    height: 35vh;
+        position: absolute;
+        top: 65vh;
+        left: 72.5vw;
+        z-index: 1;
+        width: auto;
+        transition: transform 0.1s ease;
+
+    }
+    #Tomato:hover {
+        transform: scale(1.1) rotate(-3deg); /* Slightly enlarge and rotate */
+ }
+    
+#Eggplant {
+    height: 65vh;
+    position: absolute;
+    top: 35vh;
+    left: 78vw;
+    z-index: 0;
+    width: auto;
+    transition: transform 0.2s ease;
+
+
+}
+#Eggplant:hover {
+    transform: scale(1.13) rotate(2deg); /* Slightly enlarge and rotate */
+}
+
+#Poll {
+    height: 120vh;
+    position: absolute;
+    top: 3vh;
+    left: 95vw;
+    z-index: 0;
+    width: auto;
+    cursor: default;
+
+
+}
+    
+#navbar {
+    position: fixed;
+    top: -20px; /* Initially hidden */
+    width: 100%; /* Adjust as needed */
+    transition: top 0.5s ease, opacity 0.3s ease; /* Smooth transition for showing/hiding */
+    opacity: 0; /* Start as fully transparent */
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+#navbar.visible {
+    top: 0; /* Show the navbar */
+    opacity: 1; /* Fully opaque */
+}
+
+#Wind {
+    display: flex;
+    width: 150%;
+    position: absolute;
+    top: 44 vh;
+    left: 6vw;
+    z-index: 0;
+    height: auto;
+}
+
+
+#Harship {
+    display: flex;
+    width: 90%;
+    position: absolute;
+    top: 23vh;
+    left: 153vw;
+    z-index: 1;
+    height: auto;
+
+}
+
+#Hill_2 {
+    display: flex;
+    width: 100%;
+    position: absolute;
+bottom: 0;    
+left: 170vw;
+    z-index: 0;
+    height: auto;
+}
+
+#Sayonara{
+    display: flex;
+    width: 90%;
+    position: absolute;
+    top: 0vh;
+    left: 305vw;
+    z-index: 0;
+    height: auto;
+    pointer-events: none; 
+
+
+
+}
+#Social {
+
+    display: flex;
+    width: 24vw;
+    position: absolute;
+    top: 30vh;
+    left: 265vw;
+    z-index: 0;
+    height: auto;
+}
+
+#Linkedin {
+
+    display: flex;
+    width: 13vw;
+    position: absolute;
+    top: 16vh;
+    left: 284vw;
+    z-index: 0;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+
+}
+#Linkedin:hover {
+    transform: scale(1.1) rotate(5deg); /* Slightly enlarge and rotate */
+}
+
+#Youtube {
+
+    display: flex;
+    width: 14vw;
+    position: absolute;
+    top: 30vh;
+    left: 305vw;
+    z-index: 0;
+    height: auto;
+}
+#Twitter {
+
+    display: flex;
+    width: 14vw;
+    position: absolute;
+    top: 38vh;
+    left: 296vw;
+    z-index: 0;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+#Twitter:hover {
+    transform: scale(1.1) rotate(5deg); /* Slightly enlarge and rotate */
+}
+
+
+#Wolf{
+    display: flex;
+    width: 15vw;
+    position: absolute;
+    top: 60vh;
+    left: 265vw;
+    z-index: 1;
+    height: auto;
+}
+
+
+#SocialWolf {
+
+    display: flex;
+    width: 28vw;
+    position: absolute;
+    top: 20vh;
+    left: 260vw;
+    z-index: 2;
+    height: auto;
+}s
+
+
+
+#Talpidae{}
+#Wagoon{}
+
+
+html{
+}
+
+.paragraph-box {
+    position: absolute;
+    padding: 14px; /* Space inside the box */
+    margin: 30px; /* Space outside the box */
+    border-radius: 12px; /* Optional: rounded corners */
+    width: 15vw; /* Set a max width for the box */
+    height: 17vh;
+    overflow-x: hidden; /* Enable horizontal scrolling */
+    overflow-y: auto; /* Prevent vertical scrolling */
+    white-space: wrap; /* Prevent text wrapping to a new line */
+    z-index: 2;
+    left: 100vw;
+    top: 31vh;
+
+}
+
+.paragraph-box p {
+    color: #3F1C01; /* Text color */
+    font-size: 1rem; /* Text size */
+    font-style: normal;
+
+    font-family: sofia-pro, sans-serif;
+
+	font-weight: 400;
+
+	font-style: normal;
+
+	font-size: 1vw;
+
+	line-height: 1.25vw;
+    background : rgba(247, 218, 188, 0.3);
+}
+
+
+/* For Firefox */
+.paragraph-box {
+    scrollbar-width: thin; /* 'auto' or 'thin' */
+    scrollbar-color: #CD6601 #f1f1f1; /* Handle color and track color */
+}
+
+
+
+
+
+
+
+
+.video-container {
+    position: absolute; /* To allow absolute positioning of the iframe */
+    width: 100%; /* Adjust to your needs */
+    max-width: 45vw; /* Max width for responsiveness */
+    height: 315px; /* Set the desired height */
+    margin: 20px auto; /* Center the container */
+    left: 173vw;
+    top: 34vh;
+    z-index: 1;
+}
+.video-container iframe {
+    position: absolute; /* Position the iframe absolutely */
+
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+    border: none; /* Remove the border */
+}
+
+.showreel_text {
+    position: absolute; /* To allow absolute positioning of the iframe */
+    width: 100%; /* Adjust to your needs */
+    max-width: 45vw; /* Max width for responsiveness */
+    height: 315px; /* Set the desired height */
+    margin: 20px auto; /* Center the container */
+    left: 173vw;
+    top: 34vh;
+    z-index: 1;
+        position: relative;
+        left: 23vw;
+        top: -21vh;
+        color: black; /* Change text color for visibility */
+        font-size: 2rem; /* Example text size */
+        cursor: default; /* Change cursor to indicate hover */
+    }
+    .showreel_text:before {
+        content: "";
+        position: absolute;
+        top: -1px; /* Move box up a bit */
+        left: -20px; /* Move box to the left a bit */
+        right: -15px; /* Move box to the right a bit */
+        bottom: -15px; /* Move box down a bit */
+        background-color: #EAA61F;
+        opacity: 0.14; /* Always visible */
+        z-index: 1; /* Ensure the box is behind the text */
+        border-radius: 18px; /* Optional: add rounded corners */
+    }
+    
+    .showreel_text:before {
+        opacity: 0.14; /* Show the box on hover */
+    }
+
+
+    #bottom{
+        bottom: 0;
+    }
+
+
+    #Distance {
+        display: absolute;
+        width: 28%;
+        position: absolute;
+        bottom: -3vh;  
+        left: 130vw;
+        z-index: 0;
+        height: auto;
+        opacity: 00.67;
+        /* background-color: #5ADFF2; */
+    
+    }   
+
+    .box1
+        {
+        position: absolute; /* To allow absolute positioning of the iframe */
+
+        background : #E7DFD2;
+        width : 30%;
+        height : 35vh;
+        top:  16vh;
+        left: 155vw;
+        z-index: 0;
+        background-image: url('Image/Octopus.PNG');
+        background-size: cover; 
+        ;
+        }
+
+    .box2
+        {
+        position: absolute; /* To allow absolute positioning of the iframe */
+        background : #E7DFD2;
+        width : 30%;
+        height : 35vh;
+        top:  16vh;
+        left: 187vw;
+        background-image: url('Image/Crystal.PNG');
+        background-size: cover; 
+        }
+
+    .box3
+        {
+        position: absolute; /* To allow absolute positioning of the iframe */
+        background : #E7DFD2;
+        width : 30%;
+        height : 35vh;
+        top:  16vh;
+        left: 219vw;
+        z-index: 0;
+        background-image: url('Image/Anti.png');
+        background-size: cover; 
+
+        }
+
+    .box4
+        {
+        position: absolute; /* To allow absolute positioning of the iframe */
+        background : #E7DFD2;
+        width : 30%;
+        height : 35vh;
+        top:  55.5vh;
+        left: 171vw;
+        z-index: 0;
+        background-image: url('Image/Summer.png');
+        background-size: cover ; 
+        background-position: center 20% ; /* Centers the image in the box */
+        
+
+
+        }
+    .box5
+        {
+        position: absolute; /* To allow absolute positioning of the iframe */
+        background :#E7DFD2;
+        width : 30%;
+        height : 35vh;
+        top:  55.5vh;
+        left: 203vw;
+        z-index: 0; 
+         background-image: url('Image/Cry.png');
+        background-size: cover; 
+        background-position: center 10%; /* Centers the image in the box */
+
+
+        }
+
+        .Title
+        {
+        position: absolute; /* To allow absolute positioning of the iframe */
+        
+        
+        top:  20vh;
+        left: 22.5vw;
+        z-index: 1;
+        width: 70%;
+        height: 30vh;
+
+        }
+        
+  
+    
+.Action
+    {
+    background-color : #FBCA04;
+    width : 14vw;
+    height : 3.45vw;
+    border-radius : 10px;  
+    display: grid;
+    position: absolute;
+    z-index: 1;
+    top: 60vh;
+    left: 46.7vw;
+    
+    text-decoration: none;
+
+    font-family: "Source Sans 3", sans-serif;
+
+	font-weight: 500;
+
+	font-size: 1ch;
+
+	text-align: center;
+
+	vertical-align: middle;
+	color: #82490B;
+    padding-top: 1.25px;
+    padding-left: 1px;
+    animation: bounce1;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-fill-mode: forwards;
+animation-direction: normal;
+
+}
+
+.Action:hover
+{
+    background :#FF645A;
+    color: white;
+    cursor: pointer;
+}
+
+.Action:active
+{
+    background :#F28F70;
+}
+
+@keyframes bounce1 {
+
+    0%{
+
+        transform: translateY(0px);
+    }
+
+    15%{
+
+        transform: translateY(0px);
+    }
+
+    40%{
+
+        transform: translateY(-30px);
+    }
+
+    45%
+    {
+        transform: translateY(5px);
+    }
+    60%
+    {
+        transform: translateY(-10px);
+    }
+    65%
+    {
+        transform: translateY(0px);
+    }
+    100%
+    {
+        transform: translateY(0px);
+    }
+    
+}
+
+
+
+
+
+.contact-container{
+    height: 100vh;
+    display: flex ;
+    align-items: center;
+    justify-content: flex-start;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    transform: translateX(-70%); /* Adjust for perfect centering */
+
+}
+.contact-left-title h3{
+    font-weight: 600;
+    color: #CD6601;
+    font-size: 40px;
+    margin-bottom: 5px;
+	font-family: IcielCadena, san-serif;
+	line-height: 3.75vw;
+	user-select: none;
+    z-index: 2;
+    
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+
+}
+
+.contact-left-title hr{
+    border: none;
+width: 120px;
+height: 5px;
+background-color: #CD6601;;
+margin-bottom: 20px;
+border-radius: 10px;
+    
+
+}
+
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+
+.contact-left textarea{
+ height: 140px;
+ padding-top:  15px;
+ border-radius: 20px;
+
+}
+
+.contact-inputs:focus{
+    border: 2px solid #ff994f;
+}
+.contact-inputs:hover{
+transform: scale(1.02); /* Slightly enlarge */
+}
+.contact-inputs::placeholder{
+    color: #a9a9a9;
+
+}
+
+.contact-left button{
+   
+    align-items: first baseline  ;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius:50px;
+    background: #FF9E03;
+    cursor: pointer;
+    font-family: sofia-pro, sans-serif;
+
+	font-weight: 700;
+
+	font-style: normal;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.contact-left button:hover {
+    transform: scale(1.05); /* Slightly enlarge */
+    background-color: #FF8C00; /* Darker shade on hover */
+}
+
+/* Optional: Adding a shadow for more effect */
+
+
+.contact-right img{
+    width: 50vw;
+}
+
+.parallax {
+    display: absolute;
+    width: 160%;
+    height: 160%;
+
+    position: absolute;
+    bottom: -3vh;  
+    left: 50vw;
+    z-index: 0;
+    height: auto;
+}
+
+
+#Cat {
+
+    display: flex;
+    width: 25vw;
+    position: absolute;
+    bottom: 0;
+    left: 155vw;
+    z-index: 1;
+    height: auto;
+}
+
+.frame_1 {
+    position: relative;
+    width: 100%; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+    overflow: hidden;
+}
+
+
+.frame1
+{
+    text-decoration: none;
+position: absolute; /* To allow absolute positioning of the iframe */
+
+/* background : rgba(20, 14, 85, 0.4); */
+background : rgba(127, 160, 131, 0);
+width : 46vw;
+height : 39vw;
+bottom: 0;
+left: 175vw;
+z-index: 0;
+background-size: 100%; 
+background-position: center;
+overflow: hidden;
+object-fit: cover
+
+}
+
+
+.frame1 img{
+height: max-content;
+        justify-self: center;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 91.5%;
+    /* background : rgba(20, 14, 85, 0.6); */
+    background-color: rgba(255, 255, 255, 0.3); 
+    opacity: 0; /* Hidden by default */
+    display: flex; /* Center the text */
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease; /* Smooth transition */
+    text-decoration: none;
+}
+
+.frame1:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+}
+
+.overlay-text {
+    color: #3F1C01; /* Text color */
+    font-family: "Sofia Pro", sans-serif; /* Font family */
+    font-size: 2vw; /* Responsive font size */
+    text-decoration: none; /* Remove underline */
+    font-weight: 700;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-height: 100%; /* Each image takes full width */
+    height: auto; /* Maintain aspect ratio */
+    display: none; /* Hide all images by default */
+}
+
+.slide.active {
+    display: block; /* Show the active image */
+    min-width: 100%;  /* Each image takes full width */
+
+}
+
+
+
+
+#Starttitle{
+
+	z-index: 1;
+	position: absolute ;
+	top:37.5vh ;
+    /* background-color: red; */
+    left: 225vw;
+    	font-family: IcielCadena, san-serif;
+	font-size: 10vh;
+	line-height: 3.75vw;
+	user-select: none;
+    z-index: 2;
+    
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        color: #3F1C01; /* Text color */
+        user-select: none; /* Prevent text selection */
+    
+ 	max-width: 24vw;
+}
+
+#Startsubtitle {
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 24vw; /* Set width */
+    height: 14vh;
+    left: 225vw; /* Position from the left */
+    top: 50vh; /* Position from the top */
+    color: #3F1C01; /* Text color */
+    font-family: "Sofia Pro", sans-serif; /* Use Sofia Pro font */
+    font-size: 1.475vw; /* Responsive font size */
+    font-weight: 400; /* Bold text */
+    line-height: 1.2; /* Adjust line height for readability */
+    text-align: left; /* Center text */
+    background : rgba(234, 166, 31, 0.2);
+        cursor: default; /* Change cursor style */
+    white-space: normal; /* Allow text to wrap */
+    user-select: auto; /* Prevent text selection */
+    border-radius: 12px;
+    justify-content: left;
+    padding: 10px; /* Adjust the value as needed */
+
+    
+}
+
+.page_3 button {
+    background-color: transparent;
+    border: none;
+    width: 5vh;
+    height: 5%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: 2;
+    cursor: pointer;
+    
+}
+
+.page_3 .next {
+    position: absolute;
+    
+    background-image: url(Image/Next.svg);
+    opacity: 100%;
+    transform: translateY(18vh);
+}
+
+.page_3 .next:hover {
+    background-image: url(Image/Next_Hover.svg);
+    opacity: 80%;
+}
+
+.page_3 .previous {
+    transform: translateY(18vh);
+
+    background-image: url(Image/Previous.svg);
+    opacity: 100%;
+}
+
+.page_3 .previous:hover {
+    background-image: url(Image/Previous_Hover.svg);
+    opacity: 80%;
+}
+
+
+
